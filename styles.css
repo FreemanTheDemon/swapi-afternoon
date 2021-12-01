@@ -1,0 +1,25 @@
+button {
+    color: purple;
+    background-color: greenyellow;
+    border-color: black;
+    border-width: 2px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    border: 3px solid grey;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: indianred;
+}
+
+body {
+    background-color: gold;
+}
