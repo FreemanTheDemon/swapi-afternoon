@@ -1,25 +1,66 @@
-button {
+button#alderaan {
     color: purple;
-    background-color: greenyellow;
+    background-color: navajowhite;
     border-color: black;
     border-width: 2px;
-    width: 100px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'DejaVu Sans Mono', monospace;
+}
+
+button#alderaan:hover {
+    background-color: oldlace;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button#rainbow {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 h2 {
-    border: 3px solid grey;
+    border: 3px solid lightgreen;
     width: 300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    background-color: indianred;
+    color: navy;
+    background-color: goldenrod;
 }
 
 body {
     background-color: gold;
 }
+
+
+/* stolen from https://www.geeksforgeeks.org/create-a-3d-text-effect-using-html-and-css/ !!!*/
+h1 {
+    margin: 300px auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 8em;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1:hover {
+    text-shadow: 0 1px 0 gold, 0 2px 0 gold,
+                 0 3px 0 gold, 0 4px 0 gold,
+                 0 5px 0 gold, 0 6px 0 gold,
+                 0 7px 0 gold, 0 8px 0 gold,
+                 0 9px 0 gold, 0 10px 0 gold,
+                 0 11px 0 gold, 0 12px 0 gold,
+                 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+/* end of stolen */
